@@ -1,0 +1,77 @@
+month,city_code,root_cause,tasks
+2025-05,BLR,Failed: Customer unavailable,327
+2025-04,NOI,Cancelled: Customer cancelled,71
+2025-01,BLR,Late: delay on the route,178
+2025-01,BLR,Failed: Address issue,38
+2025-01,NOI,Failed: Customer unavailable,66
+2025-06,GGN,Failed: Address issue,39
+2025-06,NOI,Failed: Address issue,38
+2025-04,NOI,Failed: Customer unavailable,81
+2025-05,GGN,Failed: Address issue,40
+2025-03,NOI,Cancelled: Customer cancelled,71
+2025-02,NOI,Failed: Customer unavailable,65
+2025-04,NOI,Late: delay on the route,149
+2025-05,BLR,Failed: Address issue,44
+2025-02,BLR,Failed: Customer unavailable,90
+2025-02,NOI,Cancelled: Customer cancelled,63
+2025-03,GGN,Late: delay on the route,260
+2025-05,GGN,Cancelled: Customer cancelled,76
+2025-01,NOI,Failed: Address issue,21
+2025-03,BLR,Late: delay on the route,217
+2025-03,BLR,Cancelled: Customer cancelled,91
+2025-06,NOI,Cancelled: Customer cancelled,75
+2025-03,BLR,Failed: Customer unavailable,96
+2025-04,BLR,Late: delay on the route,201
+2025-01,BLR,Failed: Customer unavailable,81
+2025-02,NOI,Late: delay on the route,159
+2025-06,BLR,Cancelled: Customer cancelled,89
+2025-02,BLR,Late: delay on the route,165
+2025-01,GGN,Cancelled: Customer cancelled,73
+2025-04,BLR,Failed: Customer unavailable,94
+2025-02,NOI,Failed: Address issue,20
+2025-02,NOI,Cancelled: Out of stock,57
+2025-01,NOI,Late: delay on the route,151
+2025-04,GGN,Cancelled: Customer cancelled,71
+2025-02,GGN,Late: delay on the route,151
+2025-06,GGN,Failed: Customer unavailable,76
+2025-06,BLR,Late: delay on the route,223
+2025-02,GGN,Failed: Customer unavailable,72
+2025-04,NOI,Failed: Address issue,35
+2025-03,GGN,Cancelled: Customer cancelled,64
+2025-03,GGN,Failed: Customer unavailable,95
+2025-06,NOI,Late: delay on the route,199
+2025-05,GGN,Late: delay on the route,258
+2025-01,NOI,Cancelled: Customer cancelled,52
+2025-01,BLR,Cancelled: Customer cancelled,70
+2025-06,BLR,Failed: Customer unavailable,339
+2025-02,GGN,Cancelled: Out of stock,73
+2025-05,NOI,Late: delay on the route,149
+2025-05,BLR,Cancelled: Customer cancelled,109
+2025-01,GGN,Failed: Customer unavailable,70
+2025-06,GGN,Cancelled: Customer cancelled,83
+2025-05,GGN,Failed: Customer unavailable,105
+2025-02,GGN,Cancelled: Customer cancelled,82
+2025-03,NOI,Late: delay on the route,167
+2025-06,BLR,Failed: Address issue,36
+2025-06,GGN,Late: delay on the route,207
+2025-05,NOI,Cancelled: Customer cancelled,77
+2025-05,NOI,Failed: Customer unavailable,82
+2025-04,GGN,Failed: Address issue,35
+2025-03,NOI,Failed: Customer unavailable,80
+2025-02,BLR,Failed: Address issue,34
+2025-04,BLR,Failed: Address issue,34
+2025-01,GGN,Failed: Address issue,29
+2025-02,BLR,Cancelled: Customer cancelled,71
+2025-02,GGN,Failed: Address issue,31
+2025-04,GGN,Late: delay on the route,205
+2025-01,GGN,Late: delay on the route,157
+2025-06,NOI,Failed: Customer unavailable,78
+2025-03,GGN,Failed: Address issue,34
+2025-04,BLR,Cancelled: Customer cancelled,81
+2025-04,GGN,Failed: Customer unavailable,87
+2025-03,BLR,Failed: Address issue,44
+2025-03,NOI,Failed: Address issue,41
+2025-02,GGN,Late: left the warehouse after the slot started,374
+2025-05,BLR,Late: delay on the route,263
+2025-05,NOI,Failed: Address issue,29
+2025-02,NOI,Late: left the warehouse after the slot started,412

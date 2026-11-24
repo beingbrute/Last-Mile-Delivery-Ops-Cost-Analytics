@@ -1,0 +1,15 @@
+check_code,month,vendor_code,scope,expected,amount_inr
+A01,2025-02,V02,WH-NCR,invoiced quantity above GRN,57000.0
+A03,2025-03,V01,NOI,km billed above trip log,8309.0
+A03,2025-03,V01,GGN,km billed above trip log,8474.2
+A02,2025-04,V01,NOI,per-km rate above rate card,12171.6
+A02,2025-04,V01,GGN,per-km rate above rate card,13571.4
+A02,2025-04,V01,BLR,per-km rate above rate card,13821.6
+A04,2025-05,V03,WH-NCR,duplicate invoice,465000.0
+A05,2025-06,V02,WH-BLR,invoice rate above PO rate,20000.0
+OPS-STOCKOUT,2025-02,,WH-NCR,late dispatches and out-of-stock cancellations,
+OPS-EMPTY-KM,2025-03,,NOI/Z2,empty km share about double the usual,
+OPS-FUEL,2025-04,,Own fleet,"diesel 92 -> 101 per litre: own-fleet fuel cost per km up about 10%, small effect on cost per task",
+OPS-IDLE,2025-04..2025-05,,GGN,3 extra contract riders; rider idle % up,
+OPS-SLOTS,2025-05..2025-06,,BLR,early slots; customer-unavailable failures up,
+OPS-PILOT,2025-06,,NOI vs GGN,"km per task down about 10% in Noida, not in Gurugram",

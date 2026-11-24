@@ -1,0 +1,4 @@
+city_code,own_vans,tpl_vans,own_trips_per_month,tpl_trips_per_month,km_per_trip,own_trips_per_van_day,days_observed
+NOI,4,2,378.3,181.7,33.33,3.12,91
+BLR,5,2,429.3,198.7,37.34,2.83,91
+GGN,4,2,395.0,185.3,36.96,3.26,91

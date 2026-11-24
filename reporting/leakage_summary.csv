@@ -1,0 +1,8 @@
+leakage_type,total_inr,per_month_inr
+Vendor overbilling (A04),465000.00,77500.00
+Excess rider capacity (idle above 15%),144531.31,24088.55
+Vendor overbilling (A01),57000.00,9500.00
+Vendor overbilling (A02),39564.60,6594.10
+Vendor overbilling (A05),20000.00,3333.33
+Vendor overbilling (A03),16783.20,2797.20
+Empty return km above 22%,12933.27,2155.55

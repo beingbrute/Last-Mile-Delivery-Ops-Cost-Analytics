@@ -1,0 +1,127 @@
+month,city_code,cost_head,vendor_code,amount
+2025-01,GGN,Own fleet: fuel,,132722.79
+2025-02,GGN,Own fleet: fuel,,123052.12
+2025-02,NOI,Own fleet: fuel,,114499.70
+2025-06,BLR,Own fleet: fuel,,183984.93
+2025-04,BLR,Own fleet: fuel,,165259.03
+2025-05,BLR,Own fleet: fuel,,185400.35
+2025-05,NOI,Own fleet: fuel,,149869.46
+2025-06,NOI,Own fleet: fuel,,130516.95
+2025-04,GGN,Own fleet: fuel,,157158.73
+2025-01,BLR,Own fleet: fuel,,141057.62
+2025-03,BLR,Own fleet: fuel,,156334.77
+2025-04,NOI,Own fleet: fuel,,139373.84
+2025-01,NOI,Own fleet: fuel,,121560.43
+2025-05,GGN,Own fleet: fuel,,165257.92
+2025-06,GGN,Own fleet: fuel,,162679.29
+2025-03,NOI,Own fleet: fuel,,145372.79
+2025-03,GGN,Own fleet: fuel,,147483.82
+2025-02,BLR,Own fleet: fuel,,140211.59
+2025-01,GGN,Own fleet: lease and maintenance,,72000.00
+2025-02,GGN,Own fleet: lease and maintenance,,72000.00
+2025-02,NOI,Own fleet: lease and maintenance,,72000.00
+2025-06,BLR,Own fleet: lease and maintenance,,90000.00
+2025-04,BLR,Own fleet: lease and maintenance,,90000.00
+2025-05,BLR,Own fleet: lease and maintenance,,90000.00
+2025-05,NOI,Own fleet: lease and maintenance,,72000.00
+2025-06,NOI,Own fleet: lease and maintenance,,72000.00
+2025-01,BLR,Own fleet: lease and maintenance,,90000.00
+2025-04,GGN,Own fleet: lease and maintenance,,72000.00
+2025-03,BLR,Own fleet: lease and maintenance,,90000.00
+2025-01,NOI,Own fleet: lease and maintenance,,72000.00
+2025-04,NOI,Own fleet: lease and maintenance,,72000.00
+2025-05,GGN,Own fleet: lease and maintenance,,72000.00
+2025-06,GGN,Own fleet: lease and maintenance,,72000.00
+2025-03,NOI,Own fleet: lease and maintenance,,72000.00
+2025-03,GGN,Own fleet: lease and maintenance,,72000.00
+2025-02,BLR,Own fleet: lease and maintenance,,90000.00
+2025-01,GGN,3PL fleet,V01,171443.20
+2025-02,GGN,3PL fleet,V01,157714.60
+2025-02,NOI,3PL fleet,V01,149122.60
+2025-06,BLR,3PL fleet,V01,203362.20
+2025-04,BLR,3PL fleet,V01,193372.80
+2025-05,BLR,3PL fleet,V01,196517.80
+2025-05,NOI,3PL fleet,V01,174683.20
+2025-06,NOI,3PL fleet,V01,159677.20
+2025-04,GGN,3PL fleet,V01,190021.20
+2025-01,BLR,3PL fleet,V01,173103.80
+2025-03,BLR,3PL fleet,V01,192615.80
+2025-04,NOI,3PL fleet,V01,177922.80
+2025-01,NOI,3PL fleet,V01,159015.60
+2025-05,GGN,3PL fleet,V01,185575.40
+2025-06,GGN,3PL fleet,V01,177658.40
+2025-03,NOI,3PL fleet,V01,184336.20
+2025-03,GGN,3PL fleet,V01,186781.20
+2025-02,BLR,3PL fleet,V01,168619.20
+2025-01,BLR,Riders: own,,105000.00
+2025-01,GGN,Riders: own,,84000.00
+2025-01,NOI,Riders: own,,84000.00
+2025-02,BLR,Riders: own,,105000.00
+2025-02,GGN,Riders: own,,84000.00
+2025-02,NOI,Riders: own,,84000.00
+2025-03,BLR,Riders: own,,105000.00
+2025-03,GGN,Riders: own,,84000.00
+2025-03,NOI,Riders: own,,84000.00
+2025-04,BLR,Riders: own,,105000.00
+2025-04,GGN,Riders: own,,84000.00
+2025-04,NOI,Riders: own,,84000.00
+2025-05,BLR,Riders: own,,105000.00
+2025-05,GGN,Riders: own,,84000.00
+2025-05,NOI,Riders: own,,84000.00
+2025-06,BLR,Riders: own,,105000.00
+2025-06,GGN,Riders: own,,84000.00
+2025-06,NOI,Riders: own,,84000.00
+2025-01,BLR,Riders: contract,,64800.00
+2025-01,GGN,Riders: contract,,64800.00
+2025-01,NOI,Riders: contract,,64800.00
+2025-02,BLR,Riders: contract,,60480.00
+2025-02,GGN,Riders: contract,,60480.00
+2025-02,NOI,Riders: contract,,60480.00
+2025-03,BLR,Riders: contract,,66960.00
+2025-03,GGN,Riders: contract,,66960.00
+2025-03,NOI,Riders: contract,,66960.00
+2025-04,BLR,Riders: contract,,64800.00
+2025-04,GGN,Riders: contract,,162000.00
+2025-04,NOI,Riders: contract,,64800.00
+2025-05,BLR,Riders: contract,,66960.00
+2025-05,GGN,Riders: contract,,167400.00
+2025-05,NOI,Riders: contract,,66960.00
+2025-06,BLR,Riders: contract,,64800.00
+2025-06,GGN,Riders: contract,,64800.00
+2025-06,NOI,Riders: contract,,64800.00
+2025-01,BLR,Packaging,V02,152000.00
+2025-01,BLR,Warehouse loaders,V03,315000.00
+2025-01,GGN,Warehouse loaders,V03,237351.76
+2025-01,GGN,Packaging,V02,150322.78
+2025-01,NOI,Warehouse loaders,V03,212648.24
+2025-01,NOI,Packaging,V02,134677.22
+2025-02,BLR,Warehouse loaders,V03,294000.00
+2025-02,BLR,Packaging,V02,152000.00
+2025-02,GGN,Warehouse loaders,V03,220032.67
+2025-02,GGN,Packaging,V02,199077.17
+2025-02,NOI,Warehouse loaders,V03,199967.33
+2025-02,NOI,Packaging,V02,180922.83
+2025-03,BLR,Packaging,V02,190000.00
+2025-03,BLR,Warehouse loaders,V03,325500.00
+2025-03,GGN,Warehouse loaders,V03,247120.99
+2025-03,GGN,Packaging,V02,161558.67
+2025-03,NOI,Warehouse loaders,V03,217879.01
+2025-03,NOI,Packaging,V02,142441.33
+2025-04,BLR,Packaging,V02,171000.00
+2025-04,BLR,Warehouse loaders,V03,315000.00
+2025-04,GGN,Packaging,V02,162120.74
+2025-04,GGN,Warehouse loaders,V03,239981.36
+2025-04,NOI,Packaging,V02,141879.26
+2025-04,NOI,Warehouse loaders,V03,210018.64
+2025-05,BLR,Warehouse loaders,V03,325500.00
+2025-05,BLR,Packaging,V02,190000.00
+2025-05,GGN,Packaging,V02,168681.05
+2025-05,GGN,Warehouse loaders,V03,485676.08
+2025-05,NOI,Packaging,V02,154318.95
+2025-05,NOI,Warehouse loaders,V03,444323.92
+2025-06,BLR,Packaging,V02,210000.00
+2025-06,BLR,Warehouse loaders,V03,315000.00
+2025-06,GGN,Packaging,V02,171180.16
+2025-06,GGN,Warehouse loaders,V03,238486.29
+2025-06,NOI,Packaging,V02,151819.84
+2025-06,NOI,Warehouse loaders,V03,211513.71

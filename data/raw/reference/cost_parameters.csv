@@ -1,0 +1,5 @@
+parameter,value
+own_rider_salary_month,21000
+contract_rider_per_hour,135
+own_van_fixed_month,18000
+diesel_litres_per_km,0.11

@@ -1,0 +1,45 @@
+month,scope,leakage_type,amount_inr,basis
+2025-02,NOI,Excess rider capacity (idle above 15%),4125.19,46.4 excess rider-hours
+2025-05,NOI,Excess rider capacity (idle above 15%),2796.85,30.1 excess rider-hours
+2025-03,NOI,Excess rider capacity (idle above 15%),2958.64,34.4 excess rider-hours
+2025-01,GGN,Excess rider capacity (idle above 15%),2646.47,29.7 excess rider-hours
+2025-01,NOI,Excess rider capacity (idle above 15%),5195.02,56.1 excess rider-hours
+2025-05,GGN,Excess rider capacity (idle above 15%),36537.27,339.1 excess rider-hours
+2025-02,GGN,Excess rider capacity (idle above 15%),3165.99,34.4 excess rider-hours
+2025-05,BLR,Excess rider capacity (idle above 15%),3540.63,32.6 excess rider-hours
+2025-02,BLR,Excess rider capacity (idle above 15%),9710.93,85.5 excess rider-hours
+2025-04,NOI,Excess rider capacity (idle above 15%),2265.54,27.8 excess rider-hours
+2025-03,GGN,Excess rider capacity (idle above 15%),1452.72,15.9 excess rider-hours
+2025-04,BLR,Excess rider capacity (idle above 15%),8036.14,70.2 excess rider-hours
+2025-06,BLR,Excess rider capacity (idle above 15%),1867.07,17.5 excess rider-hours
+2025-04,GGN,Excess rider capacity (idle above 15%),37081.13,351.1 excess rider-hours
+2025-01,BLR,Excess rider capacity (idle above 15%),12936.78,122.0 excess rider-hours
+2025-06,NOI,Excess rider capacity (idle above 15%),1532.47,18.3 excess rider-hours
+2025-06,GGN,Excess rider capacity (idle above 15%),585.45,6.7 excess rider-hours
+2025-03,BLR,Excess rider capacity (idle above 15%),8097.02,74.5 excess rider-hours
+2025-01,GGN,Empty return km above 22%,184.51,16 excess empty km
+2025-02,GGN,Empty return km above 22%,184.24,16 excess empty km
+2025-02,NOI,Empty return km above 22%,150.92,13 excess empty km
+2025-06,BLR,Empty return km above 22%,233.18,19 excess empty km
+2025-04,BLR,Empty return km above 22%,231.60,20 excess empty km
+2025-05,BLR,Empty return km above 22%,230.42,19 excess empty km
+2025-05,NOI,Empty return km above 22%,205.85,17 excess empty km
+2025-06,NOI,Empty return km above 22%,159.03,13 excess empty km
+2025-04,GGN,Empty return km above 22%,210.99,18 excess empty km
+2025-01,BLR,Empty return km above 22%,226.82,20 excess empty km
+2025-03,BLR,Empty return km above 22%,230.30,20 excess empty km
+2025-04,NOI,Empty return km above 22%,161.06,13 excess empty km
+2025-01,NOI,Empty return km above 22%,210.38,18 excess empty km
+2025-05,GGN,Empty return km above 22%,190.93,16 excess empty km
+2025-06,GGN,Empty return km above 22%,205.08,17 excess empty km
+2025-03,NOI,Empty return km above 22%,9509.88,885 excess empty km
+2025-03,GGN,Empty return km above 22%,191.89,17 excess empty km
+2025-02,BLR,Empty return km above 22%,216.19,18 excess empty km
+2025-02,WH-NCR,Vendor overbilling (A01),57000.00,1 invoice line(s)
+2025-03,GGN,Vendor overbilling (A03),8474.20,1 invoice line(s)
+2025-03,NOI,Vendor overbilling (A03),8309.00,1 invoice line(s)
+2025-04,BLR,Vendor overbilling (A02),13821.60,1 invoice line(s)
+2025-04,GGN,Vendor overbilling (A02),13571.40,1 invoice line(s)
+2025-04,NOI,Vendor overbilling (A02),12171.60,1 invoice line(s)
+2025-05,WH-NCR,Vendor overbilling (A04),465000.00,1 invoice line(s)
+2025-06,WH-BLR,Vendor overbilling (A05),20000.00,1 invoice line(s)

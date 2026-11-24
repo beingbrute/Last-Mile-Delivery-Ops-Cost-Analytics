@@ -1,0 +1,9 @@
+escalation_id,check_code,vendor_code,vendor_name,invoice_no,invoice_date,service_month,scope,detail,amount_at_stake,owner,action,raised_on,due_on,status
+1,A01,V02,BoxWorks Packaging,BW-00021,2025-02-10,2025-02,WH-NCR,"Invoiced 10000 CARTON, received 8500 (PO PO-00019)",57000.00,Procurement,"Hold the disputed amount, request a credit note",2025-02-12,2025-02-17,Open
+2,A03,V01,SwiftHaul Logistics,SH-00031,2025-03-31,2025-03,NOI,"KM billed 7188.3, trip log 6594.8",8309.00,Finance (accounts payable),"Hold the disputed amount, request a credit note",2025-04-02,2025-04-07,Open
+3,A03,V01,SwiftHaul Logistics,SH-00032,2025-03-31,2025-03,GGN,"KM billed 7330.8, trip log 6725.5",8474.20,Finance (accounts payable),"Hold the disputed amount, request a credit note",2025-04-02,2025-04-07,Open
+4,A02,V01,SwiftHaul Logistics,SH-00046,2025-04-30,2025-04,NOI,"KM billed at 16.0, contract rate 14.0",12171.60,Finance (accounts payable),"Hold the disputed amount, request a credit note",2025-05-02,2025-05-07,Open
+5,A02,V01,SwiftHaul Logistics,SH-00047,2025-04-30,2025-04,GGN,"KM billed at 16.0, contract rate 14.0",13571.40,Finance (accounts payable),"Hold the disputed amount, request a credit note",2025-05-02,2025-05-07,Open
+6,A02,V01,SwiftHaul Logistics,SH-00048,2025-04-30,2025-04,BLR,"KM billed at 16.0, contract rate 14.0",13821.60,Finance (accounts payable),"Hold the disputed amount, request a credit note",2025-05-02,2025-05-07,Open
+7,A04,V03,StaffLine Services,SL-00069-R,2025-06-04,2025-05,WH-NCR,Same lines and amount as SL-00069,465000.00,Finance (accounts payable),"Reject duplicate, do not pay",2025-06-06,2025-06-11,Open
+8,A05,V02,BoxWorks Packaging,BW-00087,2025-06-10,2025-06,WH-BLR,"CARTON billed at 42.0, PO PO-00085 rate 38.0",20000.00,Procurement,"Hold the disputed amount, request a credit note",2025-06-12,2025-06-17,Open

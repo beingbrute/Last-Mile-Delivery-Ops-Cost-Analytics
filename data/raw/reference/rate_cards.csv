@@ -1,0 +1,5 @@
+vendor_code,rate_code,description,rate,valid_from,valid_to
+V01,TRIP,Per trip,450.0,2025-01-01,2025-12-31
+V01,KM,Per km,14.0,2025-01-01,2025-12-31
+V02,CARTON,Packaging unit,38.0,2025-01-01,2025-12-31
+V03,MANDAY,Loader man-day,750.0,2025-01-01,2025-12-31
