@@ -30,18 +30,20 @@ The ops strategy analyst's job: report how the operation performs and what it co
 
 | Dataset | Grain | Key fields |
 |---|---|---|
-| `cities`, `warehouses` | One row each | City, warehouse served, shift capacity |
-| `riders` | One per rider | City, employment type (own / contract), hourly cost |
-| `vehicles` | One per vehicle | City, owner (own / 3PL vendor), fuel type, capacity |
-| `orders` | One per customer order or return | Order type (delivery / pickup), city, items, created time, promised slot |
-| `tasks` | One per delivery or pickup attempt | Order, trip, status (completed / failed / cancelled), reason code, dispatch time, completed time |
-| `trips` | One per vehicle trip | Vehicle, rider, warehouse, start / end time, km loaded, km empty, idle minutes, tasks |
-| `shifts` | One per rider per day | Rider, hours on duty, hours on task |
-| `warehouse_shifts` | One per warehouse per shift | Items picked, items dispatched, stock-out events |
-| `fuel_rates` | One per month | Diesel / electricity rate (revised in April) |
+| `cities`, `warehouses` | One row each | City, warehouse served, loaders per shift |
+| `riders` | One per rider | City, employment type (own / contract), active dates |
+| `vehicles` | One per vehicle | City, owner (own / 3PL vendor), fuel type |
+| `orders` | One per customer order or return | Order type (delivery / pickup), city, zone, items, created time, promised date and slot |
+| `tasks` | One per delivery or pickup attempt | Order, attempt number, trip, status (completed / failed / cancelled), reason, completed time |
+| `trips` | One per vehicle trip | Vehicle, rider, warehouse, zone, start / end time, km loaded, km empty, idle minutes, tasks |
+| `rider_shifts` | One per rider per day | Rider, hours on duty, hours on task |
+| `warehouse_shifts` | One per warehouse per shift | Items dispatched, items returned, stock-out events, loaders |
+| `fuel_rates` | One per month | Diesel price per litre (revised in April) |
 | `vendors`, `rate_cards` | Vendor and contracted rates, effective-dated | Per trip, per km, per man-day, per unit |
+| `cost_parameters` | One per parameter | Rider salary and hourly rate, van lease and maintenance, litres per km |
 | `purchase_orders`, `grns`, `invoices` | One per document line | Vendor, item, quantity, rate, amount, dates |
-| `cost_ledger` | One per cost entry | Month, city, cost head, vendor, amount |
+
+Monthly cost by city, cost head and vendor is built from these in SQL (`rpt.cost_monthly`); full column list in `data_dictionary.md`.
 
 **Volume:** 51,898 orders, 53,957 task attempts, 10,294 trips, 22 riders (19 for the whole period plus 3 extra contract riders in Gurugram in April and May), 19 vans (13 own, 6 from the 3PL), 3 vendors, and 6 months of POs, GRNs and invoices. A trip serves one 2-hour slot in one zone, so riders and vans make several trips a day.
 
@@ -133,17 +135,8 @@ Everything else is normal operating variation (weekday/weekend volume, seasonali
 | Cost model, business case, forecast | Excel |
 | Weekly ops MIS, refreshed automatically | Google Sheets + Apps Script (time trigger) |
 | Ops and cost dashboards | Power BI |
-| One-page leadership review | Markdown / PDF |
+| One-page leadership review | Markdown |
 
-## 8. Build sessions
-
-| Session | Output |
-|---|---|
-| 1 | This design, data generator and answer key, schema and load |
-| 2 | Metric views, root causes, productivity, unit costs, vendor checks, leakage |
-| 3 | Excel cost model and business case, forecast and capacity plan, what-if and pilot measurement |
-| 4 | Power BI dashboards, Google Sheets MIS with Apps Script, leadership review, tests, README |
-
-## 9. Out of scope
+## 8. Out of scope
 
 A real TMS, WMS or ERP, live GPS data, real vendor contracts, and actual procurement approvals. The project shows the analysis and the controls, not experience inside a real logistics company.

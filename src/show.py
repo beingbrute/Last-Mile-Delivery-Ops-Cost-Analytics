@@ -68,7 +68,7 @@ QUERIES = {
     ],
     "vendors": [
         ("Vendor checks A01-A05",
-         "SELECT check_code, vendor_code, invoice_no, service_month, scope, detail, amount_at_stake FROM rpt.vendor_checks ORDER BY service_month, check_code"),
+         "SELECT check_code, vendor_code, invoice_no, service_month, scope, detail, amount_at_stake FROM rpt.vendor_checks ORDER BY service_month, check_code, invoice_no"),
         ("Escalation log",
          "SELECT escalation_id, check_code, vendor_name, invoice_no, amount_at_stake, owner, action, raised_on, due_on, status FROM rpt.escalation_log"),
     ],

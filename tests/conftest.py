@@ -3,7 +3,8 @@
 The tests read the database after a full load:
     python src/load_data.py --port 5433
 Then:
-    python -m pytest -v tests --port 5433
+    python -m pytest -s -v tests --port 5433
+(-s lets pytest show the password prompt.)
 """
 import sys
 from pathlib import Path

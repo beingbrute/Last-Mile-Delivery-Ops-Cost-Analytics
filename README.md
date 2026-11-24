@@ -67,14 +67,23 @@ Every metric is defined once in SQL (`docs/design.md`, section 3) and the report
 
 ## Screenshots
 
-| | |
-|---|---|
-| ![Feb, Noida](docs/screenshots/powerbi_daily_ops_feb_noida.png) | ![Monthly cost](docs/screenshots/powerbi_monthly_cost.png) |
-| February in Noida: the stock-out days and their root cause | Cost per task, cost by head, volume vs rate variance and commentary |
-| ![Vendors and leakage](docs/screenshots/powerbi_vendors_leakage.png) | ![Weekly MIS](docs/screenshots/gsheets_weekly_mis.png) |
-| Escalation log and leakage by type | Google Sheets weekly MIS with flags against targets |
-| ![Fleet economics](docs/screenshots/excel_fleet_economics.png) | ![Pilot](docs/screenshots/excel_pilot.png) |
-| Own van vs 3PL, break-even and fleet mix | Route pilot measured against a control city |
+**February in Noida: the stock-out days and their root cause**
+![Feb, Noida](docs/screenshots/powerbi_daily_ops_feb_noida.png)
+
+**Monthly cost: cost per task, cost by head, volume vs rate variance and commentary**
+![Monthly cost](docs/screenshots/powerbi_monthly_cost.png)
+
+**Vendors and leakage: escalation log and leakage by type**
+![Vendors and leakage](docs/screenshots/powerbi_vendors_leakage.png)
+
+**Google Sheets weekly MIS with flags against targets**
+![Weekly MIS](docs/screenshots/gsheets_weekly_mis.png)
+
+**Excel: own van vs 3PL, break-even and fleet mix**
+![Fleet economics](docs/screenshots/excel_fleet_economics.png)
+
+**Excel: route pilot measured against a control city**
+![Pilot](docs/screenshots/excel_pilot.png)
 
 ## How to run
 

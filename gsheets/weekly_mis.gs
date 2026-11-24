@@ -163,8 +163,14 @@ function writeWeekly_(weeks) {
   sh.getRange(top + 1, 7, rows2.length, 2).setNumberFormat('#,##0');
   flag_(sh, top + 1, 5, 6, rows2.length);
 
-  sh.setFrozenRows(0);
-  sh.autoResizeColumns(1, 9);
+  setWidths_(sh, [110, 95, 95, 95, 85, 95, 85, 100, 190]);
+  sh.getRange(4, 1, 1, head1.length).setWrap(true);
+  sh.getRange(top, 1, 1, head2.length).setWrap(true);
+}
+
+/** Fixed column widths in pixels (auto-resize would size column A to the title). */
+function setWidths_(sh, widths) {
+  widths.forEach((w, i) => sh.setColumnWidth(i + 1, w));
 }
 
 /** Red/green fill: on-time % against the target, failure % against the limit. */
@@ -190,13 +196,14 @@ function writeEscalations_(rows) {
   if (open.length) {
     const data = open.map(r => cols.map(c => c === 'amount_at_stake' ? Number(r[c]) : r[c]));
     sh.getRange(4, 1, data.length, head.length).setValues(data);
-    sh.getRange(4, 7, data.length, 1).setNumberFormat('#,##,##0');
+    sh.getRange(4, 7, data.length, 1).setNumberFormat('#,##0');
     const total = data.reduce((s, r) => s + r[6], 0);
     sh.getRange(4 + data.length, 6, 1, 2).setValues([['Total open', total]]).setFontWeight('bold').setBackground(SUB);
-    sh.getRange(4 + data.length, 7).setNumberFormat('#,##,##0');
+    sh.getRange(4 + data.length, 7).setNumberFormat('#,##0');
   }
   sh.getRange(4, 1, Math.max(open.length, 1), 1).setNumberFormat('@');
-  sh.autoResizeColumns(1, head.length);
+  setWidths_(sh, [60, 140, 95, 70, 70, 330, 120, 190, 290, 85]);
+  sh.getRange(3, 1, Math.max(open.length, 1) + 1, head.length).setWrap(true).setVerticalAlignment('top');
 }
 
 function logRefresh_(dailyRows, escalationRows, weeks) {
